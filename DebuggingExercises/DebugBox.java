@@ -15,7 +15,7 @@ public class DebugBox
       this.length = length;
       this.height = height;
    }
-   public static void showData(int width, int length, int height)
+   public void showData()
    {
      System.out.println("Width: "  + width + "  Length: " +
        length + "  Height: " + height);
