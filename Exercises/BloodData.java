@@ -9,6 +9,9 @@ public class BloodData {
         rh_factor = '+';
     }
 
+    public BloodData(String blood_type, Character rh_factor) {
+    }
+
     public String getBlood_type() {
         return blood_type;
     }
