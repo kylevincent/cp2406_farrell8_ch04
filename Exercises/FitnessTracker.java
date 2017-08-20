@@ -6,7 +6,7 @@ public class FitnessTracker
     LocalDate date;
     public FitnessTracker()
     {
-        this("legging it", 1, LocalDate.of(2017,5,28));
+        this("legging it",1, LocalDate.of(2017,5,28));
     }
     public FitnessTracker(String a, int m, LocalDate d)
     {
